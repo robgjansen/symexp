@@ -1,0 +1,13 @@
+[workspace]
+resolver = "2"
+
+members = [
+    "main",
+    "lib/preload",
+]
+
+[profile.dev]
+opt-level = 1
+
+[profile.dev.build-override]
+opt-level = 3
